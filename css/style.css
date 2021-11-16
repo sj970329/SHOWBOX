@@ -322,7 +322,7 @@ body{
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   background-color: #fff;
   height: 0;
   -webkit-transform: translate3d(0, -100%, 0);
@@ -343,9 +343,22 @@ body{
   z-index: 999;
 }
 .fa-plus{
-  font-size: .5em; margin-left: 20px;
+  font-size: .5em; margin-left: 10px;
 }
-
+.sub{
+  font-size: .3em;
+  line-height: 20px;
+  padding-top: 20px;
+  display: none;
+}
+.sub.on{
+  font-size: .3em;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.sub a:hover{
+  color: rgb(236, 112, 62);
+}
 .menu__list{
   color: #333;
   -webkit-box-sizing: border-box;
@@ -365,7 +378,7 @@ body{
   text-transform: uppercase;
 }
 .menua{
-  font-size: .7em;
+  font-size: .5em;
 }
 .menu__group_active{
   background-color: #fff;
