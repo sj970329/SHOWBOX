@@ -4,8 +4,7 @@ $('.select').click(
     }
 );
 
-
-$(".menu__group li a").click(
+$(".menu__list .menu__group").click(
   function(){
       var $sub = $(this).children(".sub").hasClass("on");
   
