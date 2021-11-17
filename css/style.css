@@ -582,9 +582,9 @@ body{
   }
   /* body{overflow-y: hidden;} */
   .m_main{opacity: 1;}
-  .fLogo img{padding: 10px 0 0 0;}
+  .fLogo img{width: 100%; padding-top: 10px;}
   .footer{padding-top: 20px;}
-  .copyright{width: 50%; text-align: center;}
+  .copyright{width: 60%;}
   .btn{width: 40%;}
   .selectBox{padding-top: 20px;}
   .nav, .aside{display: none;}
