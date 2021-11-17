@@ -272,6 +272,10 @@ body{
   padding: 10px; box-sizing: border-box;
   text-align: center;
 }
+
+.youtube{
+  width: 100%; height: 80%;
+}
 /* aside */
 .aside{
   grid-area: aside;
